@@ -20,11 +20,11 @@ const biodata = {
     skills : [
         {
             skillName : 'HTML',
-            level : 'good'
+            level : 'advanced'
         },
         {
             skillName : 'CSS',
-            level : 'good'
+            level : 'advanced'
         },
         {
             skillName : 'Js',
