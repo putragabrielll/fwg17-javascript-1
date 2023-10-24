@@ -38,4 +38,4 @@ const biodata = {
     interestInCoding : true
 }
 
-console.log(biodata)
+console.log(biodata.schoolList[1].nameSchool)
