@@ -13,6 +13,16 @@ let data = {
   website: "hildegard.org",
 };
 
+// JAWABAN ke 1
 let data_baru = { ...data, name: "Gabriel", email: "puragmahk@gmail.com", hobby: "Ngoding" };
 
 console.log(data_baru)
+
+// JAWABAN ke 2
+// Cara 1
+const {address: {street}, address: {city}, name } = data
+// Cara 2
+// const {street,city} = data.address
+// const {name} = data
+
+console.log(name)
