@@ -25,4 +25,4 @@ const {address: {street}, address: {city}, name } = data
 // const {street,city} = data.address
 // const {name} = data
 
-console.log(name)
+console.log(street)
