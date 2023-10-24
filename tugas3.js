@@ -5,7 +5,7 @@ if (typeof printSegitiga === 'number') {
     for (let i = printSegitiga; i >= 1; i--) {
         let segitiga = ''
         for (let j = 1; j <= i; j++) {
-            segitiga+=i
+            segitiga+=j
         }
         console.log(segitiga)
     }
