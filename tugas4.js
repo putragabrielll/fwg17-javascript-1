@@ -14,15 +14,24 @@ let data = {
 };
 
 // JAWABAN ke 1
-let data_baru = { ...data, name: "Gabriel", email: "puragmahk@gmail.com", hobby: "Ngoding" };
+let dataBaru = {
+  ...data,
+  name: "Gabriel",
+  email: "puragmahk@gmail.com",
+  hobby: "Ngoding",
+};
 
-console.log(data_baru)
+console.log(dataBaru);
 
 // JAWABAN ke 2
 // Cara 1
-const {address: {street}, address: {city}, name } = data
+const {
+  address: { street },
+  address: { city },
+  name,
+} = data;
 // Cara 2
 // const {street,city} = data.address
 // const {name} = data
 
-console.log(street)
+console.log(street);

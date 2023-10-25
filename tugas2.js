@@ -21,3 +21,7 @@ const hasil = (rataRata) => {
 }
 
 console.log('Rata-rata = ' + rataRata + '\n' + 'Grade = ' + hasil(rataRata))
+
+
+
+// perbaiki dengan ada validasi agar semua variable terisi
