@@ -21,6 +21,10 @@ let dataBaru = {
   hobby: "Ngoding",
 };
 
+if (data.username) {
+  dataBaru.username = "Argon dawdawdjnawjkdbawkdi";
+}
+
 console.log(dataBaru);
 
 // JAWABAN ke 2
