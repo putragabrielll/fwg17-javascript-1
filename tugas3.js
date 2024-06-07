@@ -3,6 +3,7 @@ console.log(typeof printSegitiga)
 
 if (typeof printSegitiga === 'number') {
     for (let i = printSegitiga; i >= 1; i--) {
+        console.log(i)
         let segitiga = ''
         // j = 12345
         for (let j = 1; j <= i; j++) {
